@@ -1,0 +1,180 @@
+body{
+	font-family: 'Lato';
+    font-size: 200%;
+    color: #444;
+}
+@media (max-width: 600px) {
+  body{
+	font-size: 140%;
+  }
+}
+/* TIPOGRAPHY */
+h1{
+	font-size: 2.3em;
+	text-transform: uppercase;
+}
+h1 span{
+	font-size: 1.5em;
+	margin: 0.2em;
+}
+h1 span:after {
+	color: #fff664;
+    right: -0.1em;
+    content: "]";
+    opacity: 0.5;
+    position: relative;
+}
+h1 span:before {
+	color: #fff664;
+    left: -0.1em;
+    content: "[";
+    opacity: 0.5;
+    position: relative;
+}
+.title{
+	font-weight: bold;
+	margin: 1em 0;
+}
+.btn-success{
+	font-size: 1.1em;
+}
+
+/* END TIPOGRAPHY */
+
+/* HEADER */
+nav{
+	padding: 10px 0;
+}
+.logo{
+	width: 100px;
+}
+#header-banner{
+	background-color: #f48753;
+	color: #fff;
+	padding: 2em 0;
+}
+/* END HEADER */
+
+.paths{
+	padding: 2em 0;
+}
+
+
+.carreiras{
+    list-style: none;
+}
+.courses-tree{
+	font-size: 4em;
+}
+
+.bg-lua{
+	background: url('../img/stardust.png') fixed;
+	color: #fff;
+	padding-top: 2em;
+/*	position: relative;*/
+}
+/* awards*/
+
+.awards{
+	background: url('../img/congruent_pentagon.png') fixed;
+	border-radius: 8px;
+	padding: 1em 0;
+	margin: 1em 0;
+}
+
+/* success-banner */
+.success-banner{
+	background-color: #5d8ecb;
+	border-radius: 5px;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+.enroll{
+	padding-bottom: 1em;
+}
+.enroll i{
+	display: inline-block;
+	margin-left: 5px;
+}
+/* footer */
+footer{
+	border-top: 1px solid #ddd;
+	color: #666;
+	font-size: 15px;
+	padding: 1em 0;
+}
+footer h3{
+	font-size: 18px;
+}
+.nav-social-icons li{
+    list-style: none;
+    display: inline-block;
+	margin: 10px;
+    font-size: 1.2em;
+}
+.nav-social-icons li a{
+	color: #FFF;
+	background-color: #222;
+	border-radius: 50%;
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+}
+.nav-social-icons li a:hover{
+	background-color: #888;
+}
+/* skrollr */
+#skrollr-body{
+	overflow: hidden;
+}
+#toy-path{
+	position: fixed;
+}
+#toy-icons{
+	position: relative;
+	top: 280px;
+}
+#toy-icons i{
+	position: absolute;
+	opacity: 0;
+}
+#toy-icons .fa-keyboard-o{
+	color: #666;
+	left: 15px;
+}
+#toy-icons .fa-codepen{
+	right: -10px;
+}
+#toy-icons .fa-pencil-square-o{
+	color: #319956;
+	left: -20px;
+}
+#toy-icons .fa-puzzle-piece {
+	color: #075FA6;
+	left: -10px;
+	top: 45px;
+}
+#toy-icons .fa-gamepad{
+	color: #D24324;
+	right: -5px;
+}
+#toy-icons .fa-trophy{
+	color: #E3B816;
+	top: 50px;
+	right: 12px;
+}
+.fa-globe{
+	position: absolute;
+	left: 30px;
+	top: -5px;
+	font-size: 2em;
+}
+
+/* sprites */
+#bonequinho{
+	position: absolute;
+	top: 280px;
+	background: url('../img/bonequinho.png');
+	width: 52px;
+	height: 70px;
+}
